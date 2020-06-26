@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Test {
 
     public static void main(String[] args) {
+        System.out.println("Git test");
         String str = "51Pa*0Lp*0e";
         System.out.printf("%-25s %s%n", "Input encrypted string:", str);
         System.out.printf("%-25s %s%n", "Decrypted string:", decryptPassword(str));
