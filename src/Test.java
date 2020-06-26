@@ -4,6 +4,7 @@ public class Test {
 
     public static void main(String[] args) {
         System.out.println("Git test");
+        System.out.println("commit 3");
         String str = "51Pa*0Lp*0e";
         System.out.printf("%-25s %s%n", "Input encrypted string:", str);
         System.out.printf("%-25s %s%n", "Decrypted string:", decryptPassword(str));
